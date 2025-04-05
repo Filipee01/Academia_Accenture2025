@@ -16,6 +16,14 @@ const RANDOM_CATEGORY = () => {
 
 const HOBBIES_RANDOM = RANDOM_CATEGORY();
 
+const getValidZipCode = () => {
+  let zip;
+  do {
+    zip = faker.location.zipCode().replace(/\D/g, ""); // Remove caracteres não numéricos
+  } while (zip.length < 4 || zip.length > 8); // Garante que tenha entre 4 e 8 dígitos
+  return zip;
+};
+
 const selectorsInsuraceData = {
   FIRST_NAME: "#firstname",
   LAST_NAME: "#lastname",
@@ -24,13 +32,6 @@ const selectorsInsuraceData = {
   STREET_ADDRESS: "#streetaddress",
   COUNTRY: "#country",
   ZIP_CODE: "#zipcode",
-  getValidZipCode: () => {
-    let zip;
-    do {
-      zip = faker.location.zipCode().replace(/\D/g, ""); // Remove caracteres não numéricos
-    } while (zip.length < 4 || zip.length > 8); // Garante que tenha entre 4 e 8 dígitos
-    return zip;
-  },
   CITY: "#city",
   OCCUPATION: "#occupation",
   WEBSITE: "#website",
@@ -67,9 +68,7 @@ Cypress.Commands.add("fillInsuranceForm", () => {
         validOptions[Math.floor(Math.random() * validOptions.length)];
       cy.get(selectorsInsuraceData.COUNTRY).select(randomCountry); // Seleciona o país aleatório
     });
-  cy.get(selectorsInsuraceData.ZIP_CODE).type(
-    selectorsInsuraceData.getValidZipCode()
-  );
+  cy.get(selectorsInsuraceData.ZIP_CODE).type(getValidZipCode());
   cy.get(selectorsInsuraceData.CITY).type(faker.location.city());
   cy.get(selectorsInsuraceData.OCCUPATION).select(
     Math.floor(Math.random() * 5) + 1

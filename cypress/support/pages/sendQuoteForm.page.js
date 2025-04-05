@@ -8,6 +8,7 @@ const selectorsSendQuote = {
   INPUT_CONFIRM_PASSWORD: "#confirmpassword",
   INPUT_COMMENTS: "#Comments",
   BTN_SEND: "#sendemail",
+  POP_UP: ".sweet-alert",
 };
 
 Cypress.Commands.add("sendProposal", () => {
@@ -29,6 +30,6 @@ Cypress.Commands.add("sendProposal", () => {
   );
   cy.get(selectorsSendQuote.INPUT_COMMENTS).type(faker.lorem.paragraph(1));
   cy.get(selectorsSendQuote.BTN_SEND).click();
-  cy.get(".sweet-alert", { timeout: 15000 }).should("be.visible"); // ajeitar isso depois
+  cy.get(selectorsSendQuote.POP_UP, { timeout: 15000 }).should("be.visible");
   cy.log("Dados da proposta enviados com sucesso!");
 });
