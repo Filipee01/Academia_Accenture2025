@@ -1,6 +1,6 @@
 # 🚀 Desafio de Automação de Testes com Cypress
 
-## Este repositório contém a minha resolução referente ao desafio de Cypress da Academia Accenture 2025, onde é feita a automação de testes do portal de propostas de seguro da Tricents.
+Este repositório contém a minha resolução referente ao desafio de Cypress da Academia Accenture 2025, onde é feita a automação de testes do portal de propostas de seguro da Tricents.
 
 ## 🧪 Objetivo do Projeto
 
