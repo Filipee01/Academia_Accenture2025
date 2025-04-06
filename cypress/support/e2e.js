@@ -21,7 +21,7 @@ import "./pages/Enter Insurant Data/insurantDataForm.page";
 import "./pages/Enter Product Data/productDataForm.page";
 import "./pages/Send Quote/sendQuoteForm.page";
 import "./pages/Select Price Option/priceOptionForm.page";
-import "./pages/casosNegativos/automobileInsurance.page";
+import "./pages/Casos Negativos/automobileInsurance.page";
 
 Cypress.on("uncaught:exception", (err, runnable) => {
   return false; // Para ignorar os erros não tratados da aplicação

@@ -15,7 +15,7 @@ And("acessa a opcao de automovel automobile", () => {
   cy.acessaAutomovel();
 });
 
-When("é validado que o usuario esta na aba de Automobile Insurace", () => {
+And("é validado que o usuario esta na aba de Automobile Insurace", () => {
   cy.automobileInsurace();
 });
 
@@ -31,10 +31,10 @@ And("o usuario insere os dados do produto", () => {
   cy.fillProductData();
 });
 
-And("o usuario seleciona uma opcao de preco", () => {
+When("o usuario seleciona uma opcao de preco", () => {
   cy.fillPriceOption();
 });
 
-And("o usuario envia a proposta", () => {
+Then("o usuario envia a proposta", () => {
   cy.sendProposal();
 });

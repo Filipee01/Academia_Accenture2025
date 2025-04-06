@@ -11,6 +11,8 @@ And("o usuario insere os dados obrigatorios do seguro", () => {
   cy.fillInsuranceFormMandatory();
 });
 
-And("o usuario envia a proposta com os dados obrigatorios", () => {
+Then("o usuario envia a proposta com os dados obrigatorios", () => {
   cy.sendProposalMandatory();
 });
+
+//vendo a mesangem de sucesso

@@ -7,7 +7,7 @@ import {
   After,
 } from "cypress-cucumber-preprocessor/steps";
 
-And("tenta avançar clicando em Next sem preencher os formularios", () => {
+When("tenta avançar clicando em Next sem preencher os formularios", () => {
   cy.tryToSkip();
 });
 

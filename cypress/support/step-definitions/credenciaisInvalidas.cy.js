@@ -15,7 +15,7 @@ And("preenche todos os formulários corretamente, exceto o e-mail", () => {
   cy.sendProposalWithInvalidEmail();
 });
 
-And("tenta enviar a proposta", () => {
+When("tenta enviar a proposta", () => {
   cy.clickToSend();
 });
 
