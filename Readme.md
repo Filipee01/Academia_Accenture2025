@@ -17,7 +17,53 @@ Automatizar o preenchimento e envio de formulários do portal de seguro utilizan
 
 ## 📁 Estrutura do Projeto
 
----
+```bash
+Academia_Accenture2025/
+├── cypress/
+│ ├── assets/
+│ ├── e2e/
+│ │ ├── testesNegativos/
+│ │ │ ├── emailInvalido.feature
+│ │ │ └── fluxoIncompleto.feature
+│ │ ├── testesPositivos/
+│ │ │ ├── Dados Completos/
+│ │ │ │ └── submissaoCompleta.feature
+│ │ │ └── Dados Obrigatorios/
+│ │ │ └── submissaoObrigatorios.feature
+│ ├── fixtures/
+│ ├── support/
+│ │ ├── pages/
+│ │ │ ├── Enter Insurant Data/
+│ │ │ │ ├── insurantDataForm.page.js
+│ │ │ │ └── selectors.js
+│ │ │ ├── Enter Product Data/
+│ │ │ │ ├── productDataForm.page.js
+│ │ │ │ └── selectors.js
+│ │ │ ├── Enter Vehicle Data/
+│ │ │ │ ├── vehicleDataForm.page.js
+│ │ │ │ └── selectors.js
+│ │ │ ├── Fluxo Incompleto/
+│ │ │ │ └── automobileInsurance.page.js
+│ │ │ ├── Home/
+│ │ │ │ └── home.page.js
+│ │ │ ├── Select Price Option/
+│ │ │ │ ├── priceOptionForm.page.js
+│ │ │ │ └── selectors.js
+│ │ │ └── Send Quote/
+│ │ │ ├── sendQuoteForm.page.js
+│ │ │ └── selectors.js
+│ │ ├── step-definitions/
+│ │ │ ├── emailInvalido.cy.js
+│ │ │ ├── fluxoIncompleto.cy.js
+│ │ │ ├── submissaoCompleta.cy.js
+│ │ │ └── submissaoObrigatorios.cy.js
+│ │ ├── commands.js
+│ │ └── e2e.js
+├── cypress.config.js
+├── cypress.env.json
+├── package.json
+├── package-lock.json
+```
 
 ## ✍️ Funcionalidades Testadas
 
