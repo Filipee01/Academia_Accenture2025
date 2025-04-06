@@ -15,12 +15,13 @@
 
 // Import commands.js using ES2015 syntax:
 import "./commands";
-import "./pages/home.page";
-import "./pages/vehicleDataForm.page";
-import "./pages/insuranceDataForm.page";
-import "./pages/productDataForm.page";
-import "./pages/sendQuoteForm.page";
-import "./pages/priceOptionForm.page";
+import "./pages/Home/home.page";
+import "./pages/Enter Vehicle Data/vehicleDataForm.page";
+import "./pages/Enter Insurant Data/insurantDataForm.page";
+import "./pages/Enter Product Data/productDataForm.page";
+import "./pages/Send Quote/sendQuoteForm.page";
+import "./pages/Select Price Option/priceOptionForm.page";
+import "./pages/casosNegativos/automobileInsurance.page";
 
 Cypress.on("uncaught:exception", (err, runnable) => {
   return false; // Para ignorar os erros não tratados da aplicação

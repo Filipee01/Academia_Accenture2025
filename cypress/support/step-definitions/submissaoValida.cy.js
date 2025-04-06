@@ -7,7 +7,15 @@ import {
   After,
 } from "cypress-cucumber-preprocessor/steps";
 
-When("é validado que o usuario esta na aba de 'Automobile Insurace'", () => {
+Given("que o usuario acessa o portal", () => {
+  cy.acessaPortal();
+});
+
+And("acessa a opcao de automovel automobile", () => {
+  cy.acessaAutomovel();
+});
+
+When("é validado que o usuario esta na aba de Automobile Insurace", () => {
   cy.automobileInsurace();
 });
 

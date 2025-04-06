@@ -1,0 +1,16 @@
+export const selectorsList = {
+  FIRST_NAME: "#firstname",
+  LAST_NAME: "#lastname",
+  DATE_OF_BIRTH: "#birthdate",
+  GENDER: Math.random() < 0.5 ? "#gendermale" : "#genderfemale",
+  STREET_ADDRESS: "#streetaddress",
+  COUNTRY: "#country",
+  ZIP_CODE: "#zipcode",
+  CITY: "#city",
+  OCCUPATION: "#occupation",
+  WEBSITE: "#website",
+  PICTURE: "#picturecontainer",
+  BTN_NEXT_INSURANCE: "#nextenterproductdata",
+  ABA_INSURANCE_DATA: ".idealsteps-step-active, a[name= 'Enter Insurant Data']",
+  MANDATORY_FORM: ".invalid",
+};
