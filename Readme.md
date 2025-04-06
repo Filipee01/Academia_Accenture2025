@@ -1,17 +1,17 @@
 # 🚀 Desafio de Automação de Testes com Cypress
 
-Este repositório contém a automação de testes do portal de propostas de seguro, desenvolvido com foco na eficiência, organização e boas práticas de testes automatizados.
-
----
+## Este repositório contém a minha resolução referente ao desafio de Cypress da Academia Accenture 2025, onde é feita a automação de testes do portal de propostas de seguro da Tricents.
 
 ## 🧪 Objetivo do Projeto
 
-Automatizar o preenchimento e envio de formulários do portal de seguro utilizando **Cypress**, seguindo o padrão **Page Object Model**, com cenários escritos em **Gherkin** e contemplando:
+Automatizar o preenchimento das abas Enter Vehicle Data, Enter Insrant Date, Enter Product Date, Select Price Option, Send Quote... Contemplando os seguintes pontos:
 
-- ✅ Validações obrigatórias
+- ✅ A Automação ser no padrão **page Objects**
+- ✅ Cenários escritos em **Gherkin**
+- ✅ Obedecer às Validações
 - ✅ Testes positivos e negativos
 - ✅ Dados sensíveis separados em `cypress.env.json`
-- ✅ Redução de tarefas manuais repetitivas
+- ✅ Diferencial criar testes negativos
 
 ---
 
@@ -66,11 +66,30 @@ Automatizar o preenchimento e envio de formulários do portal de seguro utilizan
 
 ```
 
-## ✍️ Funcionalidades Testadas
+## ⚙️ Como Executar Localmente
 
-- **Formulário de Veículo**
-- **Formulário do Segurado**
-- **Formulário do Produto**
+1. Clone o repositório:
+
+```bash
+**Clone o reposiório**
+git clone https://github.com/Filipee01/Academia_Accenture2025.git
+
+**Entre na pasta**
+cd Academia_Accenture2025
+
+**Instale as dependencias**
+npm install
+
+**Abrir o Cypress para os testes**
+npx cypress open
+
+```
+
+## ✍️ Algumas Funcionalidades Testadas
+
+- **Preenchimento de Formulário de Veículo**
+- **Preenchimento de Formulário do Segurado**
+- **Preenchimento de Formulário do Produto**
 - **Opção de Preço**
 - **Envio de Proposta**
 - **Validações de Campos Obrigatórios**
@@ -81,24 +100,18 @@ Automatizar o preenchimento e envio de formulários do portal de seguro utilizan
 
 ## 💡 Tecnologias Utilizadas
 
-- [Cypress](https://www.cypress.io/)
+- Cypress
 - JavaScript (ES6)
 - Gherkin (BDD)
 - Page Object Model (POM)
 
 ---
 
-## ⚙️ Como Executar Localmente
+## 💡 Bibliotecas instaladas
 
-1. Clone o repositório:
+- Faker js
+- Moment js
 
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+---
 
-cd Academia_Accenture2025
-
-npm install
-
-npx cypress open
-
-```
+## Luiz Filipe Santos de Souza
