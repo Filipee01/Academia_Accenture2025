@@ -18,6 +18,6 @@ Cypress.Commands.add("fillPriceOption", () => {
 Cypress.Commands.add("alertTabMessage", () => {
   cy.get(selectorsList.PREVIOUS_MSG).find("p").should("be.visible"); // valido se a mensagem de erro está visível
   cy.log(
-    "O usuário não preencheu os formulários e o sistema alerta com um pop up de erro!"
+    "O usuário não preencheu os formulários e o sistema alerta com uma mensagem de erro!"
   );
 });
