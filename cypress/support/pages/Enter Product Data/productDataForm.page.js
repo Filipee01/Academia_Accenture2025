@@ -1,6 +1,7 @@
 import moment from "moment";
 import { selectorsList } from "./selectors";
 
+// Preencher os dados do produto
 Cypress.Commands.add("fillProductData", () => {
   cy.get(selectorsList.ABA_PRODUCT_DATA).should("be.visible");
   cy.log("Aba de Product Data acessada com sucesso!");
@@ -14,8 +15,10 @@ Cypress.Commands.add("fillProductData", () => {
   ); // 1-3
   cy.get(selectorsList.OPTIONAL_PRODUCTS).click({ force: true });
   cy.get(selectorsList.COURTESY_CAR).select(Math.floor(Math.random() * 2) + 1); // 1-2
-  cy.get(selectorsList.MANDATORY_FORM).should("not.exist");
+  cy.get(selectorsList.MANDATORY_FORM).should("not.exist"); // valido se a classe invalid não existe, se n existe é pq os campos obrigatórios estão preenchidos
   cy.log("Validado que os campos obrigatórios estão preenchidos!");
+  cy.get(selectorsList.COUNTER).should("be.visible");
+  cy.log("Validado que o contador está zerado e não há nada a preencher!"); // valido se o contador está zerado
   cy.get(selectorsList.BTN_NEXT_PRODUCT).click();
   cy.log("Dados do produto preenchidos com sucesso!");
 });

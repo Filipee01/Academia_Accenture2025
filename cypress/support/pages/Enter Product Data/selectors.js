@@ -9,4 +9,5 @@ export const selectorsList = {
   BTN_NEXT_PRODUCT: "#nextselectpriceoption",
   ABA_PRODUCT_DATA: ".idealsteps-step-active, a[name= 'Enter Product Data']",
   MANDATORY_FORM: ".invalid",
+  COUNTER: "span.counter.zero",
 };

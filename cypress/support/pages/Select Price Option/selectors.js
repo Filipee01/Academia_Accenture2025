@@ -12,4 +12,5 @@ export const selectorsList = {
   ABA_PRICE_OPTION: ".idealsteps-step-active, a[name= 'Select Price Option']",
   MANDATORY_FORM: ".invalid",
   PREVIOUS_MSG: "#xLoaderPrice",
+  COUNTER: "span.counter.zero",
 };

@@ -13,4 +13,5 @@ export const selectorsList = {
   BTN_NEXT_INSURANCE: "#nextenterproductdata",
   ABA_INSURANCE_DATA: ".idealsteps-step-active, a[name= 'Enter Insurant Data']",
   MANDATORY_FORM: ".invalid",
+  COUNTER: "span.counter.zero",
 };

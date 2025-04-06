@@ -9,4 +9,6 @@ export const selectorsList = {
   POP_UP: ".sweet-alert",
   ABA_SEND_QUOTE: ".idealsteps-step-active, a[name= 'Send Quote']",
   MANDATORY_FORM: ".invalid",
+  COUNTER: "span.counter.zero",
+  COUNTER_1: "span.counter",
 };

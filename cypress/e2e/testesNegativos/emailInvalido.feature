@@ -6,8 +6,8 @@ Funcionalidade: Validação de fluxo com dados incompletos ou inválidos
       Dado que o usuario acessa o portal 
       E acessa a opcao de automovel automobile
       E é validado que o usuario esta na aba de Automobile Insurace
-      E o usuario insere os dados do veiculo
-      E o usuario insere os dados do seguro
+      E o usuario insere os dados 'completos' do veiculo
+      E o usuario insere os dados 'completos' do seguro
       E o usuario insere os dados do produto
       E o usuario seleciona uma opcao de preco
       E preenche o último formulário deixando e-mail inválido

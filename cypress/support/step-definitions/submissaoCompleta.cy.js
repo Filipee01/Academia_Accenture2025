@@ -12,16 +12,16 @@ And("é validado que o usuario esta na aba de Automobile Insurace", () => {
   cy.automobileInsurace();
 });
 
-And("o usuario insere os dados do veiculo", () => {
-  cy.fillVehicleData();
+And("o usuario insere os dados {string} do veiculo", (tipo) => {
+  cy.fillVehicleData(tipo);
 });
 
-And("o usuario insere os dados do seguro", () => {
-  cy.fillInsuranceForm();
+And("o usuario insere os dados {string} do seguro", (tipo) => {
+  cy.fillInsuranceForm(tipo);
 });
 
-And("o usuario insere os dados do produto", () => {
-  cy.fillProductData();
+And("o usuario insere os dados do produto", (tipo) => {
+  cy.fillProductData(tipo);
 });
 
 When("o usuario seleciona uma opcao de preco", () => {
