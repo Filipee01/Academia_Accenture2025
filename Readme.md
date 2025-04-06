@@ -90,8 +90,8 @@ npx cypress open
 - **Preenchimento de Formulário de Veículo**
 - **Preenchimento de Formulário do Segurado**
 - **Preenchimento de Formulário do Produto**
-- **Opção de Preço**
-- **Envio de Proposta**
+- **Preenchimento de Opção de Preço**
+- **Preenchimento e Envio de Proposta**
 - **Validações de Campos Obrigatórios**
 - **Tratamento de e-mails inválidos**
 - **Fluxos incompletos**
@@ -113,5 +113,9 @@ npx cypress open
 - Moment js
 
 ---
+
+## Vídeo Detalhando Minha Resolução Do Desafio
+
+**Link:**https://youtu.be/8M3bqUtJOF4
 
 ## Luiz Filipe Santos de Souza
