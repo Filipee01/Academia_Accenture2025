@@ -16,3 +16,42 @@ Automatizar o preenchimento e envio de formulários do portal de seguro utilizan
 ---
 
 ## 📁 Estrutura do Projeto
+
+---
+
+## ✍️ Funcionalidades Testadas
+
+- **Formulário de Veículo**
+- **Formulário do Segurado**
+- **Formulário do Produto**
+- **Opção de Preço**
+- **Envio de Proposta**
+- **Validações de Campos Obrigatórios**
+- **Tratamento de e-mails inválidos**
+- **Fluxos incompletos**
+
+---
+
+## 💡 Tecnologias Utilizadas
+
+- [Cypress](https://www.cypress.io/)
+- JavaScript (ES6)
+- Gherkin (BDD)
+- Page Object Model (POM)
+
+---
+
+## ⚙️ Como Executar Localmente
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+cd Academia_Accenture2025
+
+npm install
+
+npx cypress open
+
+```
