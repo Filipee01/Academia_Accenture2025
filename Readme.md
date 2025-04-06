@@ -1,4 +1,4 @@
-# 🚀 Projeto de Automação de Testes com Cypress
+# 🚀 Desafio de Automação de Testes com Cypress
 
 Este repositório contém a automação de testes do portal de propostas de seguro, desenvolvido com foco na eficiência, organização e boas práticas de testes automatizados.
 
