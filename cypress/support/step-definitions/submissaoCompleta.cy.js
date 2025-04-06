@@ -1,11 +1,4 @@
-import {
-  Given,
-  When,
-  And,
-  Then,
-  Before,
-  After,
-} from "cypress-cucumber-preprocessor/steps";
+import { Given, When, And, Then } from "cypress-cucumber-preprocessor/steps";
 
 Given("que o usuario acessa o portal", () => {
   cy.acessaPortal();

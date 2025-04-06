@@ -28,7 +28,7 @@ Cypress.Commands.add("sendProposal", () => {
 });
 
 //variacao para o caso de teste negativo credenciais inválidas
-Cypress.Commands.add("sendProposalWithInvalidEmail", () => {
+Cypress.Commands.add("fillWithInvalidEmail", () => {
   cy.get(selectorsList.ABA_SEND_QUOTE).should("be.visible");
   cy.log("Aba do Send Quote acessada com sucesso!");
   cy.get(selectorsList.INPUT_EMAIL).type("email_invalido@", { log: false });

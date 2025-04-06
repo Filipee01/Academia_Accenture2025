@@ -1,11 +1,4 @@
-import {
-  Given,
-  When,
-  And,
-  Then,
-  Before,
-  After,
-} from "cypress-cucumber-preprocessor/steps";
+import { When, Then } from "cypress-cucumber-preprocessor/steps";
 
 When("tenta avançar clicando em Next sem preencher os formularios", () => {
   cy.tryToSkip();

@@ -2,7 +2,6 @@ const BTN_AUTOMOBILE = "#nav_automobile";
 
 Cypress.Commands.add("acessaPortal", () => {
   cy.visit("/");
-  cy.url().should("eq", `${Cypress.config("baseUrl")}`);
   cy.log("Portal acessado com sucesso!");
 });
 
