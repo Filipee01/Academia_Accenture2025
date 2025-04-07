@@ -107,7 +107,7 @@ npx cypress open
 
 ---
 
-## 💡 Bibliotecas instaladas
+## 💡 Bibliotecas Utilizadas
 
 - Faker js
 - Moment js
