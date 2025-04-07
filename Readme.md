@@ -101,6 +101,7 @@ npx cypress open
 ## 💡 Tecnologias Utilizadas
 
 - Cypress
+- Cucumber
 - JavaScript (ES6)
 - Gherkin (BDD)
 - Page Object Model (POM)
