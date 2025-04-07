@@ -114,8 +114,8 @@ npx cypress open
 
 ---
 
-## Vídeo Detalhando Minha Resolução Do Desafio
+## 😁 Vídeo Detalhando Minha Resolução Do Desafio
 
-**Link:**https://youtu.be/8M3bqUtJOF4
+[![Vídeo de Demonstração](https://img.youtube.com/vi/8M3bqUtJOF4/0.jpg)](https://youtu.be/8M3bqUtJOF4)
 
 ## Luiz Filipe Santos de Souza
