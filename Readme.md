@@ -118,4 +118,6 @@ npx cypress open
 
 [![Vídeo de Demonstração](https://img.youtube.com/vi/8M3bqUtJOF4/0.jpg)](https://youtu.be/8M3bqUtJOF4)
 
-## Luiz Filipe Santos de Souza
+**Só clicar na imagem da Accenture que você verá o video**
+
+Feito por Luiz Filipe Santos de Souza 🚀
